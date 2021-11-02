@@ -1,0 +1,31 @@
+*{
+    color: white;
+}
+body{
+    background-color: cadetblue;
+}
+.text{
+    width: 350px;
+}
+.contenedor{
+    border-radius:40px 40px 40px 40px;
+    padding:50px 50px 50px 50px;
+    margin-left: 150px;
+    width:  200px;
+    height: 200px;
+    background-color: chocolate;
+    overflow:scroll ;
+}
+.contenedorTwo{
+    border-radius:40px 40px 40px 40px;
+    padding: 10px;
+    margin-top: 100px;
+    margin-left: 150px;
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    /* overflow-x:hidden; */
+    overflow: auto;
+}
+
+

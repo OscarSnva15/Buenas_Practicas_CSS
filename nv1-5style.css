@@ -1,0 +1,8 @@
+/* estilos medinate un Selector de id */
+#title{
+    background-color: aquamarine;
+}
+/*estilos mediante una clase*/
+.parrafo{
+    background: goldenrod;
+}

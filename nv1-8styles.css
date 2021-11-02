@@ -1,0 +1,19 @@
+/*especifidad y cascada */
+h1.title#title{
+    background-color: tomato;
+}
+h1{
+    background-color: red;
+}
+.title{
+    background-color: blue;
+}
+#title{
+    background-color: green;
+}
+h1.title{
+    background-color: yellow;
+}
+h1#title{
+    background-color: teal;
+}

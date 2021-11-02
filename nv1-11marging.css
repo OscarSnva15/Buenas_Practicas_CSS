@@ -1,0 +1,40 @@
+body{
+    background-color:cadetblue;
+    color: white;
+    margin: 0;
+}
+.tittle{
+    background-color: coral;
+    width: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.subtittle{
+    background-color: aquamarine;
+    margin-top: 0px;
+    color: initial;
+}
+.inline{
+    background-color: orange;
+    color: inherit;
+    /* los elementos en linea solo tiene margenes en veerticales */
+    margin-right: 50px;
+}
+/* LOs elementos tienen las cuatro propiedades de margin aplicacbles */
+.inblock{
+    background-color: purple;
+    margin-top: 10px;
+    /* margin: 100px; se centra en los 4 lados por 100 px */
+    /* margin: 100px 50px; se centra arriba abajo juntos con 100 y a los lados con 50 */
+    /* entre otras dos mas posiblidades que fueron anotadas en el cuaderno*/
+    height: 300px;
+    width: 300px;
+    /* colocando el margin left u cualquiier margion en automaico, para un elemento en bloque si funciona , te calcula automaticamente como posisionar tu elemeneto en bloque */
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Ahora veamos el caso particular en los elemntos en linea */

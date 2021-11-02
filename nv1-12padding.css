@@ -1,0 +1,43 @@
+/* se considera el pading como los limites que tiene la cajas ya sea elemento en linea u bloque el que este contenido */
+*{
+    background-color: #333;
+    color: white;
+}
+
+/* al igual que margin , padding es un shorthan
+Podremos hasignar las cuatro propiedades posibles de la caja */
+
+/* 4 VALORES :padding:top rigth bottom left */
+/* 3 valores:(||): top right/lefth bottom */
+/* 2 valores : eje vertical , eje horizontal */
+/* 1 valor:significa que se aplicara parejo a los cuatro lads */
+.inblock{
+    background-color: purple;
+    
+    /* height: 200px;
+    width: 200px; */
+    margin: auto;
+    /* uso del padding */
+    /* padding-top:100px ;
+    padding-bottom:100px;
+    padding-left: 100px;
+    padding-right: 100px; */
+
+    padding: 100px 200px 100px 200px;
+}
+
+/* En los propiedades de padding en linea funcionan igual */
+.inline{
+    margin: 10px;
+    background-color: orange;
+    padding-top: 0px;
+    padding-left: 100px;
+    padding-right:100px;
+    padding-bottom: 200px;
+    /* padding: 100px; */
+}
+.button{
+    background-color: steelblue;
+    margin-left: 130px;
+    padding: 25px 50px;
+}

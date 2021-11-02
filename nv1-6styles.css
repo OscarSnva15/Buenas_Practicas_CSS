@@ -1,0 +1,9 @@
+/* stilos mediante selectores que son un atributo */
+[href]{
+    background-color: blueviolet;
+}
+/* estilos mediante selectores que son atributos con valor */
+[href="https://facebook.com"]{
+    background-color:dodgerblue
+}
+/*estilos mediante un atributo que comienza con la busqueda y coincidencia de valor */

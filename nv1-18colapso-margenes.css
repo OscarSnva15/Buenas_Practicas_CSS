@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+}
+.bloque1{
+    width: 1000px;
+    height: 100px;
+    background-color: coral;
+}
+.bloque2{
+    margin-top: 15px;
+    margin-left:250px;
+    width: 200px;
+    height: 200px;
+    background-color:bisque;
+}
+.bloque3{
+    margin-top: 15px;
+    margin-left: 250px;
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+}

@@ -1,0 +1,12 @@
+/* selector  por agripación*/
+.text1,
+.text2,
+.text3,
+.text4
+{
+    background-color: aqua;  
+}
+/*de momento solo existe el acceso hacia debajo o dentro no */
+div .title{
+    background-color: aquamarine;
+}

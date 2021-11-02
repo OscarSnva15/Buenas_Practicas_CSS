@@ -1,0 +1,23 @@
+*{
+    /* box-sizing: border-box; */
+    background-color: #333;
+    color: aliceblue;
+}
+.tittle,.subtitle {
+    color:cadetblue;
+}
+.caja{
+    width: 200px;
+    height: 200px;
+    margin: 100px;
+    padding: 50px;
+    border: 5px solid black;
+    background-color: blueviolet;
+    box-sizing: border-box;
+}
+/* Entoncees para evitar que siga creciendo nuestra caja , cada que asignamos valor de padding o border provenientes dentro de la caja  */
+
+
+/* DEBEMOS UTILIZAR LA SIGUIENTE PROPIEDAD , 
+        box-sizing: border-box;
+*/

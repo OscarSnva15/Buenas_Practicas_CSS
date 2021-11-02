@@ -1,0 +1,43 @@
+/* sintaxis
+selector{
+    propieda:valor;
+    propiedad2:valor;
+    propiedadN:valor;    
+}
+*/
+/* Categoria de selectores*/
+
+/* SELECTORES SIMPLES
+        Selectores elementales
+                              -> (*) Selector Universal
+        
+        Selectores de atributo 
+                              -> Nombre de la etiqueta
+                              ->id del elemento
+                              ->clase del elemento
+                              ->otros atributos
+        SELECTORES COMPUESTOS       
+        Selectores Agrupados
+        Selectores Combinadores
+        pseudoclases - pseudoelementos
+*/
+
+/* Ejmp del selector universal,va a seleccionar todos los elementos */
+*{
+    background-color: lightcoral;
+}
+/* Ejemlp de selector de atributo*/
+h1{
+    background-color: lightcyan;
+}
+p{
+    background-color: lightseagreen
+}
+li{
+    background-color: black;
+    color: blanchedalmond;
+}
+ul{
+    background-color: darkgreen;
+    
+}

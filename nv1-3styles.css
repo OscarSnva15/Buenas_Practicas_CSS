@@ -1,0 +1,42 @@
+/* 
+SELECTORES SIMPLES
+    Selectores elmenetales:
+                            *tenemos el selector universak
+                            *selector de Etiqueta
+    Selectores de atributo:
+                            *mediante un id(no es muy recomnedado)
+                            *mediante una clase(Es recomendaddo)
+                            *mediante otro atributo
+
+SELCTORES COMPUESTO
+*/
+
+/* selector universal (se representa con un asterisco , y debemos tener cuidaoo
+    al utilizarlo*/
+*{
+    background-color: lightcoral;
+}
+/* selectores de etiqueta ,escribimos el nombre de las etiquetas a las que se añadiran
+    o aplicaran esos  estilos*/
+h1{
+    background-color:cornflowerblue;
+}
+p{
+ background-color: blanchedalmond;
+}
+/* Selectores de atributo, mediante un id */
+#parrafo1{
+    background-color: cadetblue;
+}
+/* Selectores de atributo, mediante una clase */
+.title{
+    margin:auto;
+}
+/* Selectores mediante otro atributo */
+[href]{
+    background-color: blueviolet;
+}
+/* tambien tenemos la opcion de poner el atributo mas valor */
+[href="https://facebook.com"]{
+    background-color: dodgerblue;
+}

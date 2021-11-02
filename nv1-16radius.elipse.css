@@ -1,0 +1,18 @@
+*{
+    background-color: #333;
+    color: aliceblue;
+    box-sizing: border-box;
+}
+.inbloque{
+    margin: 100px 250px;
+    padding:70px 20px 10px 8px;
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    /* al colocar dos valores en el border radius asigamos el valor de la elipse*/
+    border-top-left-radius: 50px 75px;
+    border-top-right-radius: 50px 75px;
+    border-bottom-left-radius: 50px 75px;
+    border-bottom-right-radius: 50px 75px;
+    /* recomendable para no liarnos , suboir  */
+}

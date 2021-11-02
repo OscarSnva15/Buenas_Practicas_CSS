@@ -1,0 +1,24 @@
+body{
+    background-color: #333;;
+    color: #fff;
+    margin: 0;
+}
+.tittle{
+    margin-top: 0px;
+    background-color: aqua;
+    color: initial;
+    padding-left: 500px;
+    padding-right: 490px;
+}
+.block{
+    background-color: purple;
+    height: 200px;
+    width: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: 500px;
+}
+.parrafo{
+    background-color: cadetblue;
+    color: #333;
+}

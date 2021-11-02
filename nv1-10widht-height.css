@@ -1,0 +1,20 @@
+body{
+    background-color: #333;
+    color: #fff;
+}
+h1{
+    background-color: cadetblue;
+    color: initial;
+}
+/* si bien podemos interpretar el width se utiliza para dar
+el largo de nuestro elemento de bloque */
+
+/* El hinght se utiliza para dar altura de nuestro elemento de bloque */
+.block{
+    background-color: purple;
+    width: 200px;
+    height: 200px;    
+}
+
+/* Interprestar que debemos ingnorar el contenido de nuestro elemento para asignar estas propiedades */
+
