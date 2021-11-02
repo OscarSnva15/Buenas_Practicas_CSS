@@ -1,0 +1,92 @@
+/* Ejemplo de Selector de id 
+        Los stylos con mediante un id, reconoce case sensitive
+        No es recomendable usar los ides para dar estilos,
+        se le da estilo a un atributo por separado a cada elemeento con id,
+        por eso no es recomendable*/
+#title{
+    background-color:blueviolet;
+}
+/* EJemplo selectores de clases
+        son recomendable utilizar ya que podemos definir y agrupar varios
+        y agrupra varios elementos para aplicarles un estilo ,propiedad u regla
+        (tambien son case sensitive)*/
+.title{
+    background-color:aquamarine;
+}
+.parrafo{
+    background-color: cornflowerblue;
+}
+/* Ejemplo otro tipo de Selectores
+    colocamos dentro de corchetes el nombre del atributo
+    que queremos seleccionar
+
+    Primera forma de poder declarar(atributo)
+            sintaxis
+    [elemento]
+    {
+        propiedad:valor;
+    }
+
+    segunda Forma (atributo-valor)
+            sintaxis
+    [elemento y un atributo que identifique en especial a ese elemento]{
+        propiedad:valor;
+    }
+    tercera(atributo^="color")
+            sintaxis
+    [atributo^="color"]{
+        
+    }
+
+    cuarta forma(atributo*=valor) //seleccionara el valor que coincida dando igual en que 
+    posisicion se encuntrea ,siempre y cuadno sea en un atributo,supongo
+    */
+    /*      Sintaxis
+    [href*="Enlace"]{
+    propiedad:valor; 
+    }
+
+    quinta forma(atributo$=valor)  //de esta manera podemos seleccionar ese valor ,
+    si es que temina el atributo con esa palabra
+    
+        sintaxis
+    [href$="microsoft-windows.com"]{
+        propiedad:valor;
+        }
+      
+    sexta forma(atributo|=valor) //en el caso de los idiomas es recomendable,
+    ya que necesitas seleccionar un atributo con una palabra y un guion,este es recomendable
+        sintaxis
+    [leng!="en"]
+    {
+        propiedad:valor;
+    }
+        
+      */
+
+/* Aplicacion de primera fomra,no tese el IndexDos */
+[href]{
+    background-color: chocolate;
+}
+/* segunda forma en accion*/
+[href="https:192.164.0.1"]{
+    background-color:darkgreen;
+}
+/*Tercera forma en accion*/
+[href^="color"]
+{
+    background-color:violet;
+}
+/*Aplicando la cuarta forma */
+[href*="Enlace"]
+{
+    background-color:blueviolet;
+}
+/*Aplicando la quinta forma */
+[href$="com"]{
+    background-color: dodgerblue;
+}
+/*Aplicando la sexta Forma*/
+[lang|="en"]{
+    background-color: darkkhaki;
+}

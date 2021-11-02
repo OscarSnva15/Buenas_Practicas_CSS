@@ -1,0 +1,26 @@
+/* Vamo a suponer que quremos dar los mismo estilos
+a todos los parrafos, utilizando la clase*/
+
+/* .text{
+    background-color: steelblue;
+}
+.text-2{
+    background-color: steelblue;
+}
+.text-3{
+    background-color: steelblue;
+}
+.text-4{
+    background-color: steelblue;
+} */
+
+/* EStamos repitiendo lo mismo varias veces, y aqui es donde
+podemos identificar que podemos optimizar las lineas de codigo mediante la 
+agrupacion de clases apliacondles el mismo estilo a varios elementos */
+
+.text,.text-2,.text-3,.text-4{
+    background-color: steelblue;
+}
+
+
+/* */

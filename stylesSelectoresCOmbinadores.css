@@ -1,0 +1,22 @@
+/* Con el selector descendiente podemos hacer ,es seleccionar 
+un elemento dentro de otro */
+
+/* Entonces para los selectores que sean particulares
+para poder decir que se encuentre de un elemento ,hacemos uso de esta tecnica
+de selectores de  */
+
+/* Lo indicamos mediante espacios 
+Ejemplo */
+
+/* el limite de descendencia ,practicamente no hay limite ,. pero las buenas practicas no es bueno
+bajar mas de un nivel,es decir 2 elementos en esta tecnica */
+
+div .subtitle{ 
+    background-color: aquamarine;
+}
+h2{
+    background-color: teal;
+}
+
+/* Lo anterior se le domina seleccionar hijos, se esta trabajo para seleccionar padres, pero ahora solo es
+posible seleccionar hijos */
